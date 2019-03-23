@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name":"Olaide Launcher",
+	"description":"Quick launch Olaide Media",
+	"version": "1.0.0",
+	"icons":{"128":"icons.png"},
+	"browser_action":{
+	"default_icon":"oyo.png",
+	"default_popup":"pop.html"
+},
+"permission":["activeTab"]
+}

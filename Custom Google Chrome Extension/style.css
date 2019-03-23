@@ -1,0 +1,66 @@
+html, body{
+	font-family: "open sans", sans-serif;
+	margin: 0;
+	min-height: 180px;
+	padding: 0;
+	width: 384px;
+	font-size: 14px;
+}
+h1{
+	font-family: "menlo", monospace;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0;
+	color: blue;
+}
+a:link, a:visited{
+outline: 0;
+color: black;
+text-decoration: none;
+}
+
+image{
+	 width: 30px;
+}
+.modal-header{
+	align-items: center;
+	bottom-border:0.5px solid #dadada;
+}
+.modal-content{
+	padding: 0 22px;
+}
+.modal-icons{
+	height: 50px;
+	width: 100px;
+	border-top: 0.5px solid #dadada;
+}
+.logo{
+	padding: 16px;
+}
+.logo-icon{
+	vertical-align: text-bottom;
+	margin-right: 12px;
+}
+.version{
+	color: #444;
+	font-size: 18px;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 22px;
+}
+.flex{
+	opacity: 1;
+	transition: opacity 0.2s ease-in-out;
+	width:128px;
+}
+.flex: hover{
+	opacity: 0.4;
+}
+
+.flex .fa{
+	font-size: 40px;
+	color: black;
+}
